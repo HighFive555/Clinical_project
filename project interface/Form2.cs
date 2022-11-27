@@ -93,5 +93,16 @@ namespace project_interface
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            profile P = new profile();
+            P.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
